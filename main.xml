@@ -108,14 +108,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:id="@+id/private"
+            android:id="@+id/personal"
             >
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:contentDescription="개인"
                 android:src="@drawable/icon3"
-                android:id="@+id/private_img"
+                android:id="@+id/personal_img"
                 />
         </RelativeLayout>
     </LinearLayout>
