@@ -78,14 +78,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:id="@+id/pay"
+            android:id="@+id/menu"
             >
             <ImageView
                 android:layout_width="21dp"
                 android:layout_height="21dp"
                 android:contentDescription="메뉴"
                 android:src="@drawable/icon1"
-                android:id="@+id/pay_img"
+                android:id="@+id/menu_img"
                 />
         </RelativeLayout>
         <RelativeLayout
@@ -93,14 +93,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:id="@+id/asset"
+            android:id="@+id/home"
             >
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:contentDescription="홈"
                 android:src="@drawable/icon2"
-                android:id="@+id/asset_img"
+                android:id="@+id/home_img"
                 />
         </RelativeLayout>
         <RelativeLayout
@@ -108,14 +108,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:id="@+id/service"
+            android:id="@+id/private"
             >
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:contentDescription="개인"
                 android:src="@drawable/icon3"
-                android:id="@+id/service_img"
+                android:id="@+id/private_img"
                 />
         </RelativeLayout>
     </LinearLayout>
